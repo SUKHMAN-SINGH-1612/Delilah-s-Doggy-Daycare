@@ -6,7 +6,7 @@ submitButton.addEventListener('click', function(event) {
     event.preventDefault();
 
     let message = document.createElement('p');
-    message.textContent = 'Thank you for your message !';
+    message.textContent = 'Thank you for your message!';
     message.style.fontSize = '24px';
     message.style.marginTop = '20px';
     message.style.marginLeft = '100px';
